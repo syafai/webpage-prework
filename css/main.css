@@ -1,0 +1,52 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: blue;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+
+}
+
+nav{
+    display: black;
+    color: white;
+}
+
+nav a{
+    color: #555555;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero-image{
+    background-image: url("../images/Omran&Salah.JPG");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative
+
+}
+
+.hero-text{
+    color: green;
+    text-align: center;
+    position:
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

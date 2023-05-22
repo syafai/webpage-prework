@@ -1,0 +1,76 @@
+/*This combines the all the heading and the paragraphs*/
+h1, h2, h3, p{
+    margin-left: 20px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+
+    background-color: darkgoldenrod;
+
+    text-align: justify;    
+
+    font-size: 2vw;
+}
+
+h2{
+    color: rgb(1, 26, 1);
+
+    border-style: dashed;
+    border-color: aquamarine;
+    border-width: 10px 5px 3px 35px; 
+    /*10px top, 5px right, 3px bottom, 35px left*/
+
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1{
+    color: rgb(106, 0, 255); 
+    font-size: 38px;
+
+    /*has four values*/
+    border-style: dotted solid double dashed;
+    border-color: rgb(255, 0, 157);
+    border-radius: 50px;
+
+    margin: 10px;
+
+    background-color: black;
+}
+
+h3{
+    color: #b58b;
+    margin: 10px;
+    background-color: black;
+
+}
+
+div{
+    border-bottom: 5px solid;
+
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: green;
+    text-align: center;
+
+    background-color: black;
+}
+
+p{
+    margin: auto;
+    color: whitesmoke;
+}
+
+nav{
+    color: white;
+    height: auto;
+}
+
+ul{
+    color: whitesmoke;
+}
+
